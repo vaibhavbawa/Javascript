@@ -28,8 +28,11 @@ const newStringOne = " Vaibhav "
 // console.log(newStringOne.trim());
 
 const url = "https://vaibhav.com/vaibhav%20bawa";
-// console.log(url.replace(
+console.log(url.replace('%20', '-'))
 
+console.log(url.includes('sundar'))
+
+console.log(gameName.split('-'));
 
 
 
